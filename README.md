@@ -1,3 +1,4 @@
+![cover photo](https://github.com/Perceive9019/Capstone_2_Project/assets/115586607/6a18b592-8fc5-48c4-ac93-177245dbf213)
 # Predicting San Diego Airbnb Prices
   - ***_Objective_**: Develop a machine learning model capable of predicting the factors impacting the prices of Airbnb listings in San Diego.*
   - ***_Approach_**: The project employs several advanced techniques, including Random Forest Regression, XGBoost (eXtreme Gradient Boosting), and Light Gradient Boosting Machine.*
