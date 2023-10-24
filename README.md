@@ -13,7 +13,7 @@ Airbnb, with its 7 million listings globally, offers a widely-used alternative t
 
 Our dataset is publicly accessible from Inside [AirBnB](http://insideairbnb.com/get-the-data/).
 listings.csv: Summary information and metrics for listings in San Diego (good for visualizations). The file gives insights about a host, location, review rating score, room, and property type.
-calendar.csv: Summary information about availability and price per day in 2022-2023 years. Based on 'listing_id' this file will be merged with listings.csv.
+calendar.csv: Summary information about availability and price per day in 2022–2023 years. Based on 'listing_id' this file will be merged with listings.csv.
 reviews.csv: Summary review data for the listings. This dataset won't be used in this analysis.
 
 
@@ -54,7 +54,7 @@ The data cleaning process involved addressing several issues:
 By implementing these steps, the data was successfully cleaned and structured for further analysis.
 ## Exploratory Data Analysis
 
-To identify factors that influence Airbnb Prices in San Diego, we sought to find our which months and neighborhoods had the highest prices. 
+To identify factors that influence Airbnb Prices in San Diego, we sought to find out which months and neighborhoods had the highest prices. 
 
 ![Figure 1: Mean Daily Prices over 12 Months](https://github.com/Perceive9019/Capstone_2_Project/blob/main/images/average_prices_over_12_months.png)
 
@@ -141,7 +141,7 @@ We found that:
     - The most expensive neighborhoods are:
         - Gaslamp Quarter which has a prominent nightlife i.e. clubs, restaurants, theaters, etc.
         - La Jolla, Pacific Beach, and Mission Bay which are by the ocean side.
-        - Old Town and Little Italy which have attractions such as boutiques, restaurants, hotels, Museums, etc.
+        - Old Town and Little Italy, which have attractions such as boutiques, restaurants, hotels, Museums, etc.
 
 - The XGBoost model was the most robust predictive model but it was not able to capture the underlying patterns in the training data. 
 - This suggests that more tuning of these models is required. For Example:  revisiting feature selection and hyperparameter tuning.
